@@ -1,9 +1,11 @@
 import React from 'react';
 import TaskList from './components/TaskList';
-import TaskItem from './components/TaskItem';
+// import TaskItem from './components/TaskItem';
 import AddTaskForm from './components/AddTaskForm';
-import EditTaskForm from './components/EditTaskForm';
-import DeleteTask from './components/DeleteTask';
+// import EditTaskForm from './components/EditTaskForm';
+// import DeleteTask from './components/DeleteTask';
+import './App.css';
+
 
 
 const App = () => {
