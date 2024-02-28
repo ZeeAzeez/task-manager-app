@@ -1,10 +1,18 @@
 import React from 'react';
+import TaskList from './components/TaskList';
+import TaskItem from './components/TaskItem';
+import AddTaskForm from './components/AddTaskForm';
+import EditTaskForm from './components/EditTaskForm';
+import DeleteTask from './components/DeleteTask';
+
 
 const App = () => {
   return (
     <div>
-      <h1>Hello, It's my first React App!</h1>
-       <h2>Happy Coding!!</h2>
+      <h1>Task Manager App</h1>
+      <TaskList />
+      <AddTaskForm />
+      {/* Render other components here */}
     </div>
   );
 };
